@@ -1,0 +1,29 @@
+// //commonly used bootstrap 3 css
+
+* {
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  @extend .container-fluid;
+  margin: 0 auto;
+  width: var(--container_width);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.row {
+  @extend .d_flex;
+  flex-wrap: wrap;
+}

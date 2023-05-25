@@ -1,0 +1,57 @@
+/*	==========================================================================
+	Author: Mvishal Shukla
+	Updated: --/--/--
+	Notes: Hand Coded SCSS.
+	========================================================================== */
+
+@charset "UTF-8";
+
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/reset";
+@import "modules/custom_scrollbar";
+@import "modules/typography";
+@import "modules/helpers";
+@import "modules/form_ui";
+@import "modules/btn";
+@import "modules/base";
+@import "modules/bootstrap3";
+
+// @import "vendor/materialize_sass/materialize";
+
+@import "vendor/bootstrap_sass/bootstrap";
+
+@import "components/header";
+@import "components/footer";
+@import "components/loader";
+
+@import "pages/index";
+@import "pages/contact";
+
+/*	==========================================================================
+		#Demo Code
+	========================================================================== */
+
+// /* Placeholder-color first on the browser-prefix */
+// input {
+//     @include mv-placeholder-color(red);
+// }
+
+// /*	==========================================================================
+// 		#Demo code for media query
+// 	========================================================================== */
+// .media {
+//     @include mv-media(max, 991px) {
+//         color: green;
+//     }
+
+//     @include mv-media(min, 992px) {
+//         color: greenyellow;
+//     }
+
+//     @include mv-media(420px, 450px) {
+//         color: red;
+//     }
+
+//     color: darkred;
+// }

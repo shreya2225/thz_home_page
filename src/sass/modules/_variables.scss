@@ -1,0 +1,28 @@
+$browser-prefixes: false !default;
+// $placeholder-color-default: #ff6666;
+
+:root {
+  --font_heading: "Open Sans", sans-serif;
+  --font_text: "Open Sans", sans-serif;
+  --color_primary: #b4ff6d;
+  --color_text: #333;
+  --container_width: 100%;
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    --container_width: 750px;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    --container_width: 970px;
+  }
+
+  @media (min-width: 1200px) {
+    --container_width: 1170px;
+  }
+
+  @media (min-width: 1400px) {
+    --container_width: 1360px;
+  }
+
+  --container_left_space: calc((100% - var(--container_width)) / 2);
+}

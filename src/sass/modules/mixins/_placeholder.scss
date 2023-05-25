@@ -1,0 +1,25 @@
+/*	=========================== #mv-placeholder-color ======================== */
+
+@mixin mv-placeholder-color($color: $placeholder-color-default) {
+    @if $browser-prefixes {
+        &::-webkit-input-placeholder {
+            color: $color;
+        }
+
+        &::-moz-placeholder {
+            color: $color;
+        }
+
+        &::-ms-input-placeholder {
+            color: $color;
+        }
+
+        &::placeholder {
+            color: $color;
+        }
+    } @else {
+        &::placeholder {
+            color: $color;
+        }
+    }
+}

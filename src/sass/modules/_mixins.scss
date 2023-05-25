@@ -1,0 +1,15 @@
+// @import "mixins/placeholder";
+@import "mixins/mv_media";
+@import "mixins/aa_mixins";
+
+@mixin trimLines($lines) {
+  display: -webkit-box;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-line-clamp: $lines;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,41 @@
+textarea {
+    box-sizing: border-box;
+}
+
+select {
+    box-sizing: border-box;
+}
+
+//placeholder color
+::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #000;
+}
+
+::-ms-input-placeholder {
+    color: #000;
+}
+
+#thank-you-msg {
+    display: none;
+    font-size: 20px;
+    color: var(--color_primary);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.input-field label.error {
+    top: calc(100% - 30px) !important;
+    font-size: 12px;
+    color: red;
+}
+
+.input-field label.error.active {
+    top: 40px !important;
+    transform: translateY(10px) scale(1) !important;
+    transform-origin: 0 0 !important;
+}

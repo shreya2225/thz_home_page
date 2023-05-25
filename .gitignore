@@ -1,0 +1,7 @@
+.idea
+.sass-cache
+node_modules 
+/dist
+src/css/style.css
+*.orig
+.DS_store
